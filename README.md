@@ -15,7 +15,7 @@
 
 Modern enterprise web backends and API gateways process millions of incoming requests daily. However, web application firewalls and APIs frequently encounter severe threats, including distributed rate-limit abuse, credential stuffing, SQL injection attempt signatures, and unauthorized endpoint probing. Managing these security risks purely at the application layer can lead to delayed threat mitigation, unlogged security breaches, and heavy processing overhead on backend services.
 
-This project implements an autonomous, **Database-Level API Threat Detection and Security Anomaly Logging Engine** using Oracle PL/SQL. By anchoring threat evaluation directly inside the pluggable database (`PDB`), security rules are enforced at the data level. The system automatically ingests web API access logs, evaluates client risk metrics using PL/SQL packages, dynamically flags suspicious activity, and instantly quarantines malicious IP addresses via automated triggers.
+This project implements an autonomous, **Database-Level API Threat Detection and Security Anomaly Logging Engine** using Oracle PL/SQL. By anchoring threat evaluation directly inside the pluggable database (`ishimwe_kevindb`), security rules are enforced at the data level. The system automatically ingests web API access logs, evaluates client risk metrics using PL/SQL packages, dynamically flags suspicious activity, and instantly quarantines malicious IP addresses via automated triggers.
 
 ---
 
@@ -114,3 +114,9 @@ Ishimwe_kevin_20251SEN190_apiThreatLog/
 * Aryan, S. (2024). *Cybersecurity Threat Detection Logs Dataset*. Kaggle. https://www.kaggle.com/datasets/aryan208/cybersecurity-threat-detection-logs
 * Oracle Corporation. (2023). *Database PL/SQL Language Reference (19c)*. Oracle Documentation. https://docs.oracle.com/en/database/oracle/oracle-database/19/lnpls/
 * Stallings, W. (2018). *Network Security Essentials: Applications and Standards* (6th ed.). Pearson.
+* * Al-Mhiqani, M. N., et al. (2020). Cyber-threat detection and mitigation in API gateways: A review. *IEEE Access*, 8, 120412-120426.
+* Amazon Web Services. (2025). *AWS WAF Developer Guide: Rate-based rules and IP reputation list enforcement*. AWS Documentation.
+* Aryan, S. (2024). *Cybersecurity Threat Detection Logs Dataset*. Kaggle.
+* Gupta, S., & Kumar, R. (2022). Automated IP quarantine and threat mitigation architectures in enterprise relational databases. *Journal of Cybersecurity Technology*, 6(3), 145-162.
+* Oracle Corporation. (2024). *Database PL/SQL Language Reference (19c / 21c)*. Oracle Documentation.
+* OWASP Foundation. (2023). *OWASP API Security Top 10 2023*. OWASP.
