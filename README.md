@@ -90,6 +90,9 @@ Ishimwe_kevin_20251SEN190_apiThreatLog/
 ├── docs/
 │   ├── research/
 │   │   └── research_log.md
+    |___business_process/[cite: 4]
+        ├── business_process_diagram.pdf[cite: 4]
+        └── business_process_explanation.pdf[cite: 4]
 │   ├── proposal/
 │   │   └── proposal.pdf
 │   ├── presentation/
